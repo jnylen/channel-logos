@@ -3,10 +3,10 @@
 HOME=/var/local/nonametv
 export HOME
 
-R=/home/jnylen/projects/nonametv-logos/
+R=/home/jnylen/projects/logos/
 
 cd $R
-git pull origin
+git pull origin master
 
 rm -rf build
 mkdir -p $R/build $R/build/44x44 $R/build/16x16
@@ -35,5 +35,5 @@ rsync -c --delete -r build/ upload/
 #rsync -rsh=ssh -av --delete $R/upload/ tvzon:/var/www/xmltv/chanlogos/
 
 rsync -rsh=ssh -av --delete $R/upload/ /server/www/xmltv/chanlogos/
-rsync -rsh=ssh -av --delete $R/upload/ saito:/server/www/xmltv/chanlogos/
+rsync -rsh=ssh -av --delete $R/upload/ taiga:/server/www/xmltv/chanlogos/
 
