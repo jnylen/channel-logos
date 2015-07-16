@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="706"
+   height="320"
+   viewBox="0 0 706 319.99998"
+   enable-background="new 0 0 419.53 595.28"
+   xml:space="preserve">
+		<rect
+   x="56.847038"
+   y="0.022196986"
+   clip-path="none"
+   width="592.30011"
+   height="319.97769"
+   id="rect3532"
+   style="fill:#009d32" /><rect
+   x="649.14722"
+   y="-0.00010129395"
+   clip-path="none"
+   width="56.847244"
+   height="56.847244"
+   id="rect3534"
+   style="fill:#de2212" /><polygon
+   clip-path="none"
+   points="321.886,79.757 322.259,79.757 322.259,78.774 323.02,79.757 323.416,79.757 323.416,79.373 323.416,78.228 323.042,78.228 323.042,79.213 322.285,78.228 321.886,78.228 "
+   id="polygon3536"
+   style="fill:#ffffff"
+   transform="matrix(22.310535,0,0,22.310535,-6520.9458,-1733.9526)" /><path
+   clip-path="none"
+   d="M 521.19597,157.8692 577.8201,80.027747 H 535.80937 L 500.55872,129.4902 466.42361,80.027747 h -41.49759 l 54.12535,77.439863 -41.89918,57.36038 C 420.17387,169.87227 403.19555,124.91654 386.21724,79.983125 H 347.32997 C 327.20587,133.3053 307.01484,186.64979 286.86842,239.99428 h 36.72315 c 4.0382,-11.51224 8.09872,-21.79739 12.15924,-33.30963 h 60.48386 c 4.0382,11.51224 8.07641,21.79739 12.11461,33.30963 h 10.41903 27.88817 14.88112 l 38.44105,-54.03612 36.94625,54.03612 h 42.03304 L 521.19597,157.8692 z m -175.27156,21.26194 c 7.51865,-21.50735 21.35118,-62.02328 21.35118,-62.02328 0,0 13.85485,40.51593 21.3958,62.02328 h -42.74698 z"
+   id="path3538"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" /><path
+   clip-path="none"
+   d="m 281.84855,79.983125 h -31.7702 c 0,0 -35.76378,73.423965 -39.51195,81.098795 -3.74817,-7.65251 -39.69044,-81.098795 -39.69044,-81.098795 H 136.83008 V 239.99428 h 35.3622 v -83.37447 c 6.40312,12.40465 26.57185,51.71582 26.57185,51.71582 h 23.64916 c 0,0 19.99024,-39.15499 26.37105,-51.6712 v 83.32985 h 35.3622 V 79.983125 h -2.29799 z"
+   id="path3540"
+   inkscape:connector-curvature="0"
+   style="fill:#ffffff" />
+</svg>

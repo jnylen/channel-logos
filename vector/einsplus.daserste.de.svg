@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="814.96063"
+   height="351.14172"
+   id="svg26043">
+  <defs
+     id="defs26045">
+    <linearGradient
+       id="linearGradient5905">
+      <stop
+         style="stop-color:#eb008b;stop-opacity:1"
+         offset="0"
+         id="stop5907" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0.49565217"
+         id="stop5913" />
+      <stop
+         style="stop-color:#eb008b;stop-opacity:1"
+         offset="1"
+         id="stop5909" />
+    </linearGradient>
+  </defs>
+  <g
+     transform="translate(-138.8443,398.2262)"
+     id="g7078">
+    <path
+       d="M 232.89442,-269.9157 C 218.14804,-269.9157 210.63048,-263.75698 203.691,-254.85137 L 203.691,-187.01862 C 210.91966,-177.07209 221.90699,-171.60731 235.49671,-171.60731 C 253.71264,-171.60731 263.54352,-187.3944 263.54352,-217.49418 C 263.54352,-254.53328 251.39948,-269.9157 232.89442,-269.9157 M 241.85788,-127.07939 C 225.95495,-127.07939 212.36533,-133.23811 203.691,-141.13169 L 203.691,-88.392173 L 156.56083,-64.769197 L 156.56083,-310.65586 L 203.691,-310.65586 L 203.691,-299.3503 C 212.65451,-307.1861 224.50927,-314.44354 241.85788,-314.44354 C 280.0246,-314.44354 311.54112,-285.64507 311.54112,-218.53511 C 311.54112,-164.75466 286.38577,-127.07939 241.85788,-127.07939"
+       style="font-size:10px;letter-spacing:0;word-spacing:0;fill:#b0c200;fill-rule:nonzero;stroke:none;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;font-family:fnt0, &quot;TheSans&quot;, Arial"
+       id="path8861" />
+    <path
+       d="M 346.5273,-130.8383 L 346.5273,-356.88966 L 393.65742,-380.54139 L 393.65742,-130.8383 L 346.5273,-130.8383 z "
+       style="font-size:10px;letter-spacing:0;word-spacing:0;fill:#b0c200;fill-rule:nonzero;stroke:none;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;font-family:fnt0, &quot;TheSans&quot;, Arial"
+       id="path8863" />
+    <path
+       d="M 542.27659,-130.8383 L 542.27659,-142.86655 C 533.8915,-134.27904 518.85604,-127.07939 500.06181,-127.07939 C 454.08825,-127.07939 433.55916,-158.59595 433.55916,-209.28251 L 433.55916,-310.65586 L 480.68933,-310.65586 L 480.68933,-213.41727 C 480.68933,-181.20678 491.67666,-171.60731 511.33843,-171.60731 C 530.71091,-171.60731 542.27659,-181.20678 542.27659,-212.37633 L 542.27659,-310.65586 L 589.40688,-310.65586 L 589.40688,-130.8383 L 542.27659,-130.8383 z "
+       style="font-size:10px;letter-spacing:0;word-spacing:0;fill:#b0c200;fill-rule:nonzero;stroke:none;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;font-family:fnt0, &quot;TheSans&quot;, Arial"
+       id="path8865" />
+    <path
+       d="M 694.94367,-127.07939 C 666.60773,-127.07939 638.85015,-135.29106 619.76669,-147.98433 L 635.38044,-183.92474 C 654.75298,-173.34218 674.70376,-167.53033 697.83514,-167.53033 C 716.34019,-167.53033 721.83388,-171.95431 721.83388,-181.20678 C 721.83388,-189.41844 715.18358,-193.55312 695.52192,-199.33606 C 652.15069,-212.37633 624.39295,-222.98794 624.39295,-260.98119 C 624.39295,-298.30953 654.4638,-314.44354 696.38935,-314.44354 C 718.94247,-314.44354 743.51958,-307.59089 762.89222,-296.95047 L 747.85677,-259.62224 C 729.92996,-269.22173 710.55748,-274.0215 695.52192,-274.0215 C 676.14944,-274.0215 670.94482,-270.23377 670.94482,-262.39787 C 670.94482,-254.85137 676.43862,-251.72864 708.24427,-241.493 C 740.62811,-230.88153 768.38575,-219.22905 768.38575,-183.25972 C 768.38575,-141.79671 735.42366,-127.07939 694.94367,-127.07939"
+       style="font-size:10px;letter-spacing:0;word-spacing:0;fill:#b0c200;fill-rule:nonzero;stroke:none;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;font-family:fnt0, &quot;TheSans&quot;, Arial"
+       id="path8867" />
+    <path
+       d="M 893.00612,-266.47488 L 893.00612,-338.50017 L 820.43142,-312.50634 L 820.43142,-294.60837 L 844.43027,-303.31159 L 844.43027,-249.15532 L 893.00612,-266.47488 z M 864.09183,-357.03423 C 829.97318,-357.03423 802.50461,-329.53677 802.50461,-295.62041 C 802.50461,-261.704 829.97318,-234.20668 864.09183,-234.20668 C 897.92151,-234.20668 925.39008,-261.704 925.39008,-295.62041 C 925.39008,-329.53677 897.92151,-357.03423 864.09183,-357.03423 M 864.09183,-367.58792 C 903.70438,-367.58792 936.08839,-335.37753 936.08839,-295.62041 C 936.08839,-255.86338 903.70438,-223.65289 864.09183,-223.65289 C 824.19026,-223.65289 792.09543,-255.86338 792.09543,-295.62041 C 792.09543,-335.37753 824.19026,-367.58792 864.09183,-367.58792"
+       style="font-size:10px;letter-spacing:0;word-spacing:0;fill:#b0c200;fill-rule:nonzero;stroke:none;stroke-width:0.285;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;font-family:fnt0, &quot;TheSans&quot;, Arial"
+       id="path8869" />
+  </g>
+</svg>

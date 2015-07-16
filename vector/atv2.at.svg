@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1374.3081"
+   height="377.8804"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.2 r9819"
+   version="1.0"
+   sodipodi:docname="ATV.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   inkscape:export-filename="/home/infanf/Downloads/ATV2.png"
+   inkscape:export-xdpi="5.2397532"
+   inkscape:export-ydpi="5.2397532">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.29796541"
+     inkscape:cx="870.48252"
+     inkscape:cy="210.4528"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1024"
+     inkscape:window-height="576"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-7.4445887,-4.8734614)">
+    <path
+       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="M 187.78125 0 C 164.67583 -0.0153333 143.56666 13.08125 133.3125 33.78125 L 6.3125 290.21875 C -8.570417 320.2625 3.737499 356.67958 33.78125 371.5625 C 63.834585 386.44542 100.27334 374.1375 115.15625 344.09375 C 115.15625 344.09375 152.0875 262.27708 187.59375 190.59375 C 222.90834 262.23875 259.625 343.96875 259.625 343.96875 C 274.45042 374.05084 310.865 386.41917 340.9375 371.59375 C 371.01959 356.76833 383.38792 320.35375 368.5625 290.28125 L 242.1875 33.90625 C 231.97167 13.187083 210.88666 0.0191667 187.78125 0 z M 949.65625 0 C 927.06958 -0.24457182 905.25959 12.180416 894.5625 33.78125 C 894.5625 33.78125 857.63125 115.61959 822.125 187.3125 C 786.81999 115.6675 750.0625 33.90625 750.0625 33.90625 C 739.31 12.084999 717.22417 -0.3470833 694.40625 0.09375 C 694.28128 0.09375 694.14625 0.09375 694.03125 0.09375 L 363.9375 0.09375 C 330.66417 0.09375 303.6875 27.070415 303.6875 60.34375 C 303.6875 93.617084 330.66417 120.59375 363.9375 120.59375 L 456.375 120.59375 L 456.375 316.6875 C 456.375 350.21959 483.56166 377.40625 517.09375 377.40625 C 550.62583 377.40625 577.8125 350.21959 577.8125 316.6875 L 577.8125 120.59375 L 657.40625 120.59375 L 767.53125 344 C 777.7375 364.72875 798.83208 377.85583 821.9375 377.875 C 845.04292 377.8903 866.15208 364.79375 876.40625 344.09375 L 1003.375 87.6875 C 1018.258 57.634166 1005.9595 21.205001 975.90625 6.3125 C 967.45645 2.1266796 958.49451 0.095702018 949.65625 0 z "
+       transform="translate(7.4445887,4.8734614)"
+       id="path2982" />
+    <path
+       style="fill:#ff0000;stroke:none"
+       d="M 1134.5 0.65625 C 1111.9906 0.35809539 1090.2844 12.702019 1079.5625 34.28125 L 952.3125 290.375 C 937.39506 320.39828 949.53922 356.58256 979.5625 371.5 C 1009.5858 386.41744 1045.7701 374.24203 1060.6875 344.21875 L 1187.9375 88.15625 C 1202.8549 58.132972 1190.6795 21.948691 1160.6562 7.03125 C 1152.2122 2.8357198 1143.308 0.7729192 1134.5 0.65625 z M 1314.5 0.65625 C 1291.9906 0.35809539 1270.2844 12.702019 1259.5625 34.28125 L 1132.3125 290.375 C 1117.3951 320.39828 1129.5392 356.58256 1159.5625 371.5 C 1189.5858 386.41744 1225.7701 374.24203 1240.6875 344.21875 L 1367.9375 88.15625 C 1382.8549 58.132972 1370.6795 21.948691 1340.6562 7.03125 C 1332.2122 2.8357198 1323.308 0.7729192 1314.5 0.65625 z "
+       transform="translate(7.4445887,4.8734614)"
+       id="rect2991" />
+  </g>
+</svg>
