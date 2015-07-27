@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="400" height="400" id="svg2" sodipodi:version="0.32" inkscape:version="0.47 r22583" version="1.0">
-  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(-575.612, 28.9248)">
-    <path style="fill: rgb(226, 37, 37); fill-rule: nonzero; stroke: none;" d="m 975.61184,371.07524 -400,0 0,-399.587626 400,0 0,399.587626 z" id="path64560"/>
-    <g transform="matrix(29.8489, 0, 0, -29.8489, 661.317, 285.69)" id="g64562">
-      <path style="fill: rgb(255, 255, 255); fill-rule: nonzero; stroke: none;" d="m 0,0 0,7.651 1.914,0 3.832,-4.599 0,4.599 1.914,0 L 7.66,0 5.746,0 1.914,4.583 1.914,0 0,0 z" id="path64564"/>
-    </g>
-  </g>
-</svg>
