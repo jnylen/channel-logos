@@ -19,24 +19,25 @@ clean:
 dobuild: build buildfiles
 
 build:
-	mkdir -p build build/44x44 build/100x100 build/16x16
+	mkdir -p build build/svg
+	cp vector/*.svg build/svg
 
-buildfiles: $(FILES256) $(FILES100) $(FILES44) $(FILES16)
+buildfiles: $(FILES256)
 
 build/%.png: vector/%.svg
 	${CONVERT} -density 300 -background none $< -resize 256x256 -gravity center -extent 256x256 $@
 
-build/100x100/%.png: vector/%.svg
-	${CONVERT} -density 300 -background none $< -resize 100x100 -gravity center -extent 100x100 $@
+#build/100x100/%.png: vector/%.svg
+#	${CONVERT} -density 300 -background none $< -resize 100x100 -gravity center -extent 100x100 $@
 
-build/44x44/%.png: vector/%.svg
-	${CONVERT} -density 300 -background none $< -resize 44x44 -gravity center -extent 44x44 $@
+#build/44x44/%.png: vector/%.svg
+#	${CONVERT} -density 300 -background none $< -resize 44x44 -gravity center -extent 44x44 $@
 
-build/16x16/%.png: vector/%.svg
-	${CONVERT} -density 300 -background none $< -resize 16x16 -gravity center -extent 16x16 $@
+#build/16x16/%.png: vector/%.svg
+#	${CONVERT} -density 300 -background none $< -resize 16x16 -gravity center -extent 16x16 $@
 
 doupload:
 	mkdir -p upload
 	rsync --checksum --delete -r build/ upload/
-#	rsync -rsh=ssh -av --delete upload/ /server/www/xmltv/chanlogos/
-#	rsync -rsh=ssh -av --delete upload/ taiga:/server/www/xmltv/chanlogos/
+	rsync --checksum --delete -r upload/ /server/www/xmltv/chanlogos/
+	rsync -rsh=ssh -av --delete upload/ taiga:/server/www/xmltv/chanlogos/
