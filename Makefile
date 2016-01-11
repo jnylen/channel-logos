@@ -39,5 +39,4 @@ build/%.png: vector/%.svg
 doupload:
 	mkdir -p upload
 	rsync --checksum --delete -r build/ upload/
-	rsync --checksum --delete -r upload/ /server/www/xmltv/chanlogos/
-	rsync -rsh=ssh -av --delete upload/ taiga:/server/www/xmltv/chanlogos/
+	rsync --checksum --delete -r upload/ /home/jnylen/content/logos
