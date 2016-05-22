@@ -20,7 +20,7 @@ dobuild: build buildfiles
 
 build:
 	mkdir -p build build/svg
-	cp vector/*.svg build/svg
+	rsync --checksum --delete -r -l vector/ build/svg/
 
 buildfiles: $(FILES256)
 
@@ -38,5 +38,5 @@ build/%.png: vector/%.svg
 
 doupload:
 	mkdir -p upload
-	rsync --checksum --delete -r build/ upload/
-	rsync --checksum --delete -r upload/ /home/jnylen/content/logos
+	rsync --checksum --delete -r -l build/ upload/
+	rsync --checksum --delete -r -l upload/ /home/jnylen/content/logos
