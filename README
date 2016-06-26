@@ -4,10 +4,8 @@ are created automatically from the files in 100x100/.
 The original/ catalog is used to store the originals for the logos for
 future reference. This catalog is not used in the update process.
 
-The logos are used on tv.swedb.se, xmltv.tvtab.la, digiepg and tvsajten.com.
+The logos are used on xmltv.se.
 
 Convert is included in the imagemagick package in apt-get.
 
-Original author: Mattias Holmlund 2007-04-12
-Current maintainer: Gustav Axelsson 2010-02-01
-Fork maintainer: Joakim Nylén 2011-07-10
+Current maintainer: Joakim Nylén 2011-07-10
