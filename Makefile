@@ -16,7 +16,7 @@ all: dobuild
 clean:
 	rm -rf build
 
-dobuild: build buildfiles
+dobuild: build buildfiles doupload
 
 build:
 	mkdir -p build build/svg
@@ -39,4 +39,5 @@ build/%.png: vector/%.svg
 doupload:
 	mkdir -p upload
 	rsync --checksum --delete -r -l build/ upload/
-	rsync --checksum --delete -r -l upload/ /home/jnylen/content/logos
+	rsync --checksum --delete -r -l upload/ /content/logos
+	rsync --checksum --delete -r -l upload/ epgio:/xmltv_files/logos
