@@ -1,0 +1,55 @@
+#!/bin/bash
+
+echo "usage: $0 [get] [extract] [copy] [svg] [rename]"
+
+if [[ $1 = get ]]; then
+    # URLs from https://sverigesradio.se/sida/artikel.aspx?programid=3113&artikel=4101100
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/e8562af7-554b-48b8-9b50-d324c6ec6288.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/41869619-27da-4ca7-a726-070b9aa4e2ed.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/bf39d1de-be40-4a77-ab4e-7741dfd82917.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/0648fdd5-0e20-4e19-93a5-408217ac8fee.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/5fa832d6-4da4-4b54-8bb3-98d988c3711e.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/134a82ab-c8a6-4863-87e2-fabf6ada94ad.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/21d1c439-588c-4042-a285-191ebba03834.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/e74ce3bd-e838-4840-9950-1dd7eaabc63b.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/61d75edf-44dd-4b11-bf0c-822fcf4fbefc.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/48f9839c-1f09-48d3-a066-94c3e1822a9c.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/02250c1f-463a-44cb-a8fb-be2aa4f4c954.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/129979c6-bd47-4200-812c-be856054b792.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/2fa6c9fb-b852-4008-84a4-da7ee79c93ce.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/8b9a2642-93f1-4189-9e77-56308ea28124.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/475b1c88-e46d-4bec-ac4a-1f2019599c30.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/c93170b0-0e10-4ab1-9213-bf575eab9fc6.zip
+    wget https://sverigesradio.se/diverse/appdata/isidor/files/3113/586eeba7-f73b-4b6e-83c1-82de75b668e8.zip
+    shift
+fi
+
+if [[ $1 = extract ]]; then
+    for Z in *.zip; do
+        unzip -o $Z
+    done
+    find -iname '__*' -exec rm -r {} \;
+    shift
+fi
+
+if [[ $1 = copy ]]; then
+    for F in `find -iname '*.eps' |grep -i webb |grep -v _sv |grep -v _neg |grep -v _lay`; do
+        cp  -vn "$F" .
+    done
+    shift
+fi
+
+if [[ $1 = svg ]]; then
+    for E in *.eps; do
+        inkscape -z "$E" -l "${E%.eps}.svg" && rm "$E"
+    done
+    shift
+fi
+
+if [[ $1 = rename ]]; then
+    for S in *.svg; do
+        mv -vn "$S" `echo "${S%%_*}" |sed 's/garant//; s/\(^[^P].*\)/\1.sr.se/; s/^P\([0-9]\)\(.*\)/p\1\2.sr.se/; s/\(.*\)/\L\1/'`.svg
+    done
+    mv -vn *.svg vector/
+    shift
+fi
